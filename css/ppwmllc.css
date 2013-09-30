@@ -1,0 +1,48 @@
+.container {
+    max-width: 960px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Economica', sans-serif;
+}
+
+ 
+/* LOGO CONTAINER
+-------------------------------------------------- */
+h1#title {
+    line-height: 130px;
+    /*font-size: 35px;*/
+    margin: 0 20px 0 15px;
+    text-transform: uppercase;
+}
+
+h1#slash {
+    line-height: 130px;
+    /*font-size: 35px;*/
+    margin: 0;
+}
+
+h2#subtitle {
+    line-height: 120px;
+    /*font-size: 20px;*/
+    margin: 0 15px;
+    color: orange;
+    font-style:italic;
+    padding-top: 10px;
+}
+
+#logo_top {
+    padding: 10px 0;
+}
+
+/* LOGO CONTAINER
+-------------------------------------------------- */
+
+.navbar-nav {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
