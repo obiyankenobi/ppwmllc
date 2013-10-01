@@ -1,3 +1,16 @@
+html { 
+    background: url(/img/goldengate.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+body {
+    background-color: transparent;
+}
+
 .container {
     max-width: 960px;
 }
@@ -6,25 +19,33 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Economica', sans-serif;
 }
 
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
  
 /* LOGO CONTAINER
 -------------------------------------------------- */
 h1#title {
     line-height: 130px;
-    /*font-size: 35px;*/
+    font-size: 36px;
     margin: 0 20px 0 15px;
     text-transform: uppercase;
 }
 
 h1#slash {
     line-height: 130px;
-    /*font-size: 35px;*/
+    font-size: 36px;
     margin: 0;
 }
 
 h2#subtitle {
-    line-height: 120px;
-    /*font-size: 20px;*/
+    line-height: 110px;
+    font-size: 30px;
     margin: 0 15px;
     color: orange;
     font-style:italic;
