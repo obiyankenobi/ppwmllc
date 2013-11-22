@@ -28,6 +28,10 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 35px;
+}
+
  
 /* LOGO CONTAINER
 -------------------------------------------------- */
@@ -112,7 +116,7 @@ h2#subtitle {
 
 .navbar-nav > li > a:hover {
     background-color: transparent;
-    color: #A9A9A9;
+    color: orange;
 }
 
 /* FOOTER
