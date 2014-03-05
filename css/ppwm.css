@@ -1,0 +1,137 @@
+html { 
+    background: url(/img/goldengate.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+body {
+    background-color: transparent;
+    font-family: 'Voces', cursive;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.center {
+    text-align: center;
+}
+
+.dark-text {
+    color: black;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Economica', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+ 
+/* LOGO CONTAINER
+-------------------------------------------------- */
+h1#title {
+    line-height: 130px;
+    font-size: 36px;
+    margin: 0 20px 0 15px;
+    text-transform: uppercase;
+}
+
+h1#slash {
+    line-height: 130px;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2#subtitle {
+    line-height: 110px;
+    font-size: 30px;
+    margin: 0 15px;
+    color: orange;
+    font-style:italic;
+    padding-top: 10px;
+}
+
+#logo_top {
+    padding: 10px 0;
+    color: white;
+}
+
+/* MENU
+-------------------------------------------------- */
+
+.navbar-nav {
+    float: none;
+    /*display: inline-block;*/
+    text-align: center;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-collapse {
+    /*margin: 50px 0;*/
+    border-radius: 0;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-collapse.collapse {
+    padding: 15px 0;
+}
+
+.navbar-nav > li {
+    border-right: 1px dotted;
+    border-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-nav > li:last-child {
+    border:0;
+}
+
+
+.navbar-nav > li > a {
+    font-family: 'Economica', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: orange;
+}
+
+/* FOOTER
+-------------------------------------------------- */
+
+.divider {
+    margin: 50px 0;
+    border-color: rgba(255, 255, 255, .3);
+    border-style: dotted;
+}
